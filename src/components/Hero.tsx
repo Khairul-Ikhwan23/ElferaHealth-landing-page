@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Heart, Phone, ArrowRight } from 'lucide-react'
+import { BASE_PATH } from '@/lib/constants'
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/hero-image.jpg"
+          src={`${BASE_PATH}/assets/hero-image.jpg`}
           alt="ElferaHealth Caregiving Services"
           fill
           className="object-cover"

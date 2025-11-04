@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Stethoscope, Heart, Plane, Bandage, Users, GraduationCap, ActivitySquare, Globe } from 'lucide-react'
+import { BASE_PATH } from '@/lib/constants'
 
 const services = [
   {
@@ -92,7 +93,7 @@ export default function Services() {
         >
           <div className="relative h-64 md:h-96">
             <Image
-              src="/assets/services-image.jpg"
+              src={`${BASE_PATH}/assets/services-image.jpg`}
               alt="ElferaHealth Caregiving Services"
               fill
               className="object-cover"

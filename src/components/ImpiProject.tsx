@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Heart, Users, ExternalLink, Mail, Phone, Instagram } from 'lucide-react'
+import { BASE_PATH } from '@/lib/constants'
 
 export default function ImpiProject() {
   return (
@@ -37,7 +38,7 @@ export default function ImpiProject() {
             <div className="rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/tip-image.jpg"
+                  src={`${BASE_PATH}/assets/tip-image.jpg`}
                   alt="The IMPIAN Project - Special Needs Community"
                   fill
                   className="object-cover"

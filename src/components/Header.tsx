@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { Menu, X, Phone } from 'lucide-react'
+import { BASE_PATH } from '@/lib/constants'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,7 +16,7 @@ export default function Header() {
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2">
               <Image
-                src="/assets/elfera-logo.jpg"
+                src={`${BASE_PATH}/assets/elfera-logo.jpg`}
                 alt="ElferaHealth Logo"
                 width={50}
                 height={50}
