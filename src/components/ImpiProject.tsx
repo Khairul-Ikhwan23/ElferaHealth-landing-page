@@ -45,7 +45,6 @@ export default function ImpiProject() {
               </div>
             </div>
             
-            <div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-elfera-pink-light/20 rounded-lg">
