@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+	--color-elfera-pink: #FF6B9D;
+	--color-elfera-pink-dark: #E6399F;
+	--color-elfera-pink-light: #FFB6C1;
+	--color-elfera-white: #FFFFFF;
+	--color-elfera-light-gray: #F5F5F5;
+	--color-elfera-teal: #4ECDC4;
+	--color-elfera-teal-dark: #3BA99F;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+	
+	body {
+		font-family: var(--font-roboto), system-ui, sans-serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-montserrat), system-ui, sans-serif;
+		font-weight: 700;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply bg-elfera-pink text-white px-6 py-3 rounded-lg font-semibold hover:bg-elfera-pink-dark transition-colors duration-200 inline-flex items-center gap-2;
+	}
+	
+	.btn-secondary {
+		@apply bg-white text-elfera-pink border-2 border-elfera-pink px-6 py-3 rounded-lg font-semibold hover:bg-elfera-pink hover:text-white transition-colors duration-200 inline-flex items-center gap-2;
+	}
+	
+	.section-padding {
+		@apply py-16 px-4 sm:px-6 lg:px-8;
+	}
+	
+	.container-custom {
+		@apply max-w-7xl mx-auto;
+	}
+}
+
