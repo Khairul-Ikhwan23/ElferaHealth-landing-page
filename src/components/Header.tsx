@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Menu, X, Phone } from 'lucide-react'
 
 export default function Header() {
@@ -13,12 +14,14 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-elfera-pink rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">E</span>
-              </div>
-              <span className="font-montserrat font-bold text-xl text-gray-800">
-                ElferaHealth
-              </span>
+              <Image
+                src="/assets/elfera-logo.jpg"
+                alt="ElferaHealth Logo"
+                width={50}
+                height={50}
+                className="h-10 w-auto object-contain"
+                priority
+              />
             </a>
           </div>
 

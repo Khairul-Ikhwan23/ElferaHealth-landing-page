@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Stethoscope, Heart, Plane, Bandage, Users, GraduationCap, ActivitySquare, Globe } from 'lucide-react'
 
@@ -79,6 +80,24 @@ export default function Services() {
             We offer a comprehensive range of caregiving and health support services tailored to meet 
             the diverse needs of our clients, from personal care to international medical facilitation.
           </p>
+        </motion.div>
+
+        {/* Services Image */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="mb-16 rounded-lg overflow-hidden shadow-lg"
+        >
+          <div className="relative h-64 md:h-96">
+            <Image
+              src="/assets/services-image.jpg"
+              alt="ElferaHealth Caregiving Services"
+              fill
+              className="object-cover"
+            />
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">

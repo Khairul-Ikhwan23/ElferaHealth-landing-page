@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Heart, Users, ExternalLink, Mail, Phone, Instagram } from 'lucide-react'
 
@@ -24,13 +25,27 @@ export default function ImpiProject() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
-          {/* Left Content */}
+          {/* Left Content with Image */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
+            className="space-y-6"
           >
+            {/* TIP Image */}
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="/assets/tip-image.jpg"
+                  alt="The IMPIAN Project - Special Needs Community"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            
+            <div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-elfera-pink-light/20 rounded-lg">
