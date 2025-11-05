@@ -156,12 +156,12 @@ export default function Contact() {
             </div>
             
             <div className="flex gap-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-elfera-pink-light transition-colors">
+              {/* <a href="/privacy" className="text-gray-400 hover:text-elfera-pink-light transition-colors">
                 Privacy Policy
               </a>
               <a href="/terms" className="text-gray-400 hover:text-elfera-pink-light transition-colors">
                 Terms of Service
-              </a>
+              </a> */}
             </div>
           </div>
         </motion.div>
