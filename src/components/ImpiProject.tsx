@@ -31,9 +31,9 @@ export default function ImpiProject() {
             <Image
               src={`${BASE_PATH}/assets/Impian-Project-logo.jpg`}
               alt="IMPIAN"
-              width={80}
-              height={80}
-              className="h-8 sm:h-10 lg:h-12 w-auto object-contain drop-shadow-lg"
+              width={120}
+              height={120}
+              className="h-12 sm:h-16 lg:h-20 w-auto object-contain drop-shadow-lg"
             />
             <span>Project</span>
           </h3>
