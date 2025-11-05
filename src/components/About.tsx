@@ -15,11 +15,6 @@ const timeline = [
     description: 'Over time, the company evolved to meet broader healthcare needs - focusing on compassionate caregiving, health assistance, and medical tourism facilitation.'
   },
   {
-    year: '2024',
-    title: 'The IMPIAN Project Registration',
-    description: 'The IMPIAN Project, our CSR initiative, officially registered as a non-governmental organization (NGO) in Brunei, strengthening our commitment to the special needs community.'
-  },
-  {
     year: 'Today',
     title: 'Trusted Healthcare Partner',
     description: 'ELFERA Health continues to provide comprehensive caregiving and health support services across Brunei, built on empathy, dedication, and the belief that everyone deserves quality care and dignity in living.'

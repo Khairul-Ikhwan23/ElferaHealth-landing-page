@@ -19,13 +19,6 @@ const stats = [
     suffix: '+',
     label: 'Clients Served',
     description: 'Families and individuals cared for'
-  },
-  {
-    icon: Users,
-    number: 50,
-    suffix: '+',
-    label: 'Trained Caregivers',
-    description: 'Professional caregiving team'
   }
 ]
 

@@ -17,8 +17,20 @@ export default function ImpiProject() {
           className="text-center mb-16"
         >
           <h2 className="font-montserrat font-bold text-3xl sm:text-4xl lg:text-5xl text-elfera-pink mb-6">
-            The IMPIAN Project
+            Our CSR
           </h2>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <Image
+              src={`${BASE_PATH}/assets/Impian-Project-logo.jpg`}
+              alt="The IMPIAN Project Logo"
+              width={120}
+              height={120}
+              className="h-16 w-auto object-contain"
+            />
+            <h3 className="font-montserrat font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800">
+              The IMPIAN Project
+            </h3>
+          </div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Empowering and supporting the special needs community in Brunei through awareness, 
             advocacy, and education.
