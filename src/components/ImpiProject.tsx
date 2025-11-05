@@ -26,14 +26,14 @@ export default function ImpiProject() {
           <h2 className="font-montserrat font-bold text-3xl sm:text-4xl lg:text-5xl text-white mb-6 drop-shadow-lg">
             Our CSR
           </h2>
-          <h3 className="font-montserrat font-bold text-2xl sm:text-3xl lg:text-4xl text-white drop-shadow-lg mb-6 flex items-center justify-center gap-3 flex-wrap">
+          <h3 className="font-montserrat font-bold text-2xl sm:text-3xl lg:text-4xl text-white drop-shadow-lg mb-6 flex items-baseline justify-center gap-3 flex-wrap">
             <span>The</span>
             <Image
               src={`${BASE_PATH}/assets/Impian-Project-logo.jpg`}
               alt="IMPIAN"
               width={120}
               height={120}
-              className="h-12 sm:h-16 lg:h-20 w-auto object-contain drop-shadow-lg"
+              className="h-12 sm:h-16 lg:h-20 w-auto object-contain drop-shadow-lg -mb-1 sm:-mb-2 lg:-mb-3"
             />
             <span>Project</span>
           </h3>
