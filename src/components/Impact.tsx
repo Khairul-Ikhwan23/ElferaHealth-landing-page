@@ -14,12 +14,20 @@ const stats = [
     description: 'Serving Brunei since 2019'
   },
   {
+    icon: Users,
+    number: 15,
+    suffix: '+',
+    label: 'Passionate Caregivers',
+    description: 'Professional caregiving team'
+  },
+  {
     icon: Heart,
-    number: 500,
+    number: 200,
     suffix: '+',
     label: 'Clients Served',
     description: 'Families and individuals cared for'
   }
+
 ]
 
 function Counter({ end, suffix = '', duration = 2 }: { end: number; suffix?: string; duration?: number }) {
@@ -128,7 +136,7 @@ export default function Impact() {
               className="btn-secondary bg-white text-elfera-pink hover:bg-gray-100"
             >
               <Heart className="w-4 h-4" />
-              Contact Us Today
+              Enquire Now
             </a>
           </div>
         </motion.div>

@@ -35,10 +35,7 @@ export default function Header() {
               Services
             </a>
             <a href="#impi-project" className="text-gray-700 hover:text-elfera-pink transition-colors">
-              IMPIAN Project
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-elfera-pink transition-colors">
-              Contact
+              The IMPIAN Project
             </a>
             <a
               href="#contact"

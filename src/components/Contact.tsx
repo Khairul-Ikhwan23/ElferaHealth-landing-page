@@ -151,7 +151,7 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-gray-400">
-                © 2025 ElferaHealth and Nursing Care Sdn Bhd. All rights reserved.
+                © 2025 Elfera Health and Nursing Care Sdn Bhd. All rights reserved.
               </p>
             </div>
             
