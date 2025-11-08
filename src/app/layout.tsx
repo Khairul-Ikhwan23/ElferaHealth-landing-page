@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     canonical: 'https://khairul-ikhwan23.github.io/ElferaHealth-landing-page/',
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/ElferaHealth-landing-page/favicon.ico',
+    shortcut: '/ElferaHealth-landing-page/favicon.ico',
+    apple: '/ElferaHealth-landing-page/favicon.ico',
   },
 }
 
