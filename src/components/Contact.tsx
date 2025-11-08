@@ -14,7 +14,7 @@ const contactInfo = [
     icon: Phone,
     label: 'Phone',
     value: '+673 8660168',
-    href: 'tel:+6738660168'
+    href: 'https://wa.me/6738660168'
   },
   {
     icon: Mail,
