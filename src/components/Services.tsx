@@ -38,7 +38,7 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: 'Caregiving Training',
+    title: 'Caregiver Training',
     description: 'Workshops and short courses designed to equip individuals and families with essential caregiving skills.',
     color: 'text-elfera-pink'
   },
