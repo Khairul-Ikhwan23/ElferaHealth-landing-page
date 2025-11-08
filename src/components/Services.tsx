@@ -51,7 +51,7 @@ const services = [
   {
     icon: Globe,
     title: 'Medical Tourism Facilitation',
-    description: 'Coordination of overseas medical consultations, treatments, and travel logistics. We partner with reputable international hospitals, including KPJ Healthcare (Malaysia).',
+    description: 'Coordination of overseas medical consultations, treatments, and travel logistics. We partner with reputable international hospitals to offer access to medical expertise overseas.',
     color: 'text-elfera-pink'
   }
 ]
