@@ -11,21 +11,21 @@ const stats = [
     number: 6,
     suffix: '+ years',
     label: 'In Service',
-    description: 'Serving Brunei since 2019'
+    description: 'Serving Brunei Since 2019'
   },
   {
     icon: Users,
     number: 15,
     suffix: '+',
     label: 'Passionate Caregivers',
-    description: 'Professional caregiving team'
+    description: 'Professional Caregiving Team'
   },
   {
     icon: Heart,
     number: 200,
     suffix: '+',
     label: 'Clients Served',
-    description: 'Families and individuals cared for'
+    description: 'Families And Individuals Cared For'
   }
 
 ]
@@ -132,7 +132,9 @@ export default function Impact() {
               contributes to our mission of providing quality care with dignity and compassion.
             </p>
             <a
-              href="#contact"
+              href="https://wa.me/6738660168"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-secondary bg-white text-elfera-pink hover:bg-gray-100"
             >
               <Heart className="w-4 h-4" />

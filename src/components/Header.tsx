@@ -38,7 +38,9 @@ export default function Header() {
               The IMPIAN Project
             </a>
             <a
-              href="#contact"
+              href="https://wa.me/6738660168"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
             >
               <Phone className="w-4 h-4" />
@@ -88,7 +90,9 @@ export default function Header() {
                 Contact
               </a>
               <a
-                href="#contact"
+                href="https://wa.me/6738660168"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary w-full justify-center"
                 onClick={() => setIsMenuOpen(false)}
               >
