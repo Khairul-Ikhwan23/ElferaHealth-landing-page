@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://khairul-ikhwan23.github.io/ElferaHealth-landing-page/sitemap.xml',
+    sitemap: 'https://www.elferahealth.com/sitemap.xml',
   }
 }
 

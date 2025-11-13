@@ -16,7 +16,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://khairul-ikhwan23.github.io/ElferaHealth-landing-page'),
+  metadataBase: new URL('https://www.elferahealth.com'),
   title: 'ElferaHealth — Compassionate Care You Can Trust',
   description: 'ElferaHealth provides trusted caregiving and health support services in Brunei - from personal care to medical facilitation, with compassion at the heart of everything we do.',
   keywords: 'ElferaHealth, caregiving, nursing, medical tourism, healthcare, Brunei, special needs, IMPIAN Project, caregiving services',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Providing trusted caregiving and health support services in Brunei - from personal care to medical facilitation.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://khairul-ikhwan23.github.io/ElferaHealth-landing-page/',
+    url: 'https://www.elferahealth.com/',
     images: ['/favicon.ico'],
   },
   robots: {
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://khairul-ikhwan23.github.io/ElferaHealth-landing-page/',
+    canonical: 'https://www.elferahealth.com/',
   },
   icons: {
-    icon: '/ElferaHealth-landing-page/favicon.ico',
-    shortcut: '/ElferaHealth-landing-page/favicon.ico',
-    apple: '/ElferaHealth-landing-page/favicon.ico',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 }
 
