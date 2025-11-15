@@ -17,11 +17,11 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.elferahealth.com'),
-  title: 'ElferaHealth — Compassionate Care You Can Trust',
+  title: 'Elfera Health',
   description: 'ElferaHealth provides trusted caregiving and health support services in Brunei - from personal care to medical facilitation, with compassion at the heart of everything we do.',
   keywords: 'ElferaHealth, caregiving, nursing, medical tourism, healthcare, Brunei, special needs, IMPIAN Project, caregiving services',
   openGraph: {
-    title: 'ElferaHealth — Compassionate Care You Can Trust',
+    title: 'Elfera Health',
     description: 'Providing trusted caregiving and health support services in Brunei - from personal care to medical facilitation.',
     type: 'website',
     locale: 'en_US',

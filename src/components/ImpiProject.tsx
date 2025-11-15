@@ -44,14 +44,14 @@ export default function ImpiProject() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+        <div className="flex flex-col gap-12 items-center mb-12">
           {/* Left Content with Image */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="space-y-6"
+            className="space-y-6 w-full max-w-3xl"
           >
             {/* TIP Image */}
             <div className="rounded-lg overflow-hidden shadow-lg">
@@ -101,7 +101,7 @@ export default function ImpiProject() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-cyan-500 via-blue-500 to-purple-600 rounded-lg p-8 text-white shadow-xl border-2 border-white/30"
+            className="bg-gradient-to-br from-cyan-500 via-blue-500 to-purple-600 rounded-lg p-8 text-white shadow-xl border-2 border-white/30 w-full max-w-3xl"
           >
             <div className="mb-6">
               <Users className="w-12 h-12 mb-4" />
